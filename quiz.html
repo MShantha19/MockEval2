@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="navbar"></div>
+<main>
+  <h1>Quiz Management</h1>
+  <form id="quiz-form">
+    <input type="text" id="question" placeholder="Question Statement" required>
+        <input type="text" id="optionA" placeholder="option A" required>
+    <input type="text" id="optionB" placeholder="option B" required>
+    <input type="text" id="optionC" placeholder="option C" required>
+    <input type="text" id="optionD" placeholder="option D" required>
+    <select id="correctOption" required>
+      <option value="">Select correct Option</option>
+          <option value="A">Option A</option>
+          <option value="B">Option B</option>
+                    <option value="C">Option C</option>
+          <option value="D">Option D</option>
+    </select>
+<button type="submit">Add Question</button>
+  </form>
+  <section id="questions-container"></section>
+</main>
+      <script src="quiz.js"></script>
+      <script src="common.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
